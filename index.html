@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub and Hosting</title>
+  </head>
+  <body>
+    <div id="app">
+      <form id="city-form" action="">
+        <input
+          type="text"
+          id="city-search"
+          name="city-search"
+          placeholder="Type a city..."
+          required
+        />
+        <input type="submit" id="button-search" value="Search" />
+      </form>
+
+      <div class="principal">
+        <h1>City</h1>
+        <p id="hora">Current time</p>
+        <p id="cloud"><em>clouds</em></p>
+      </div>
+
+      <div class="weather">
+        <table>
+          <tr>
+            <td id="temperature">🌤️°C<br /></td>
+            <td class="properties">
+              Precipitation: 0% <br />
+              Humidity: 77% <br />
+              Wind: 8 km/h
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
