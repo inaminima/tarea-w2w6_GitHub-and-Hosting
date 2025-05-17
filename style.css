@@ -68,3 +68,16 @@ table {
   color: rgb(55, 55, 55);
   cursor: pointer;
 }
+a {
+  color: #f24484;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #f24484;
+}
+footer {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 50px;
+}
